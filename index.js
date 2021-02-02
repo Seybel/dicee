@@ -31,7 +31,7 @@ function randomDiceImage() {
   // Check for Winner
   setTimeout(() => {
     if (randomNumber1 > randomNumber2) {
-        return document.querySelector("#winner").innerHTML = "Player 1 wins🚩"
+        return document.querySelector("#winner").innerHTML = "🚩Player 1 wins"
     } else if (randomNumber1 === randomNumber2) {
         return document.querySelector("#winner").innerHTML = "Draw!!!🏳"
     } else {
